@@ -120,7 +120,8 @@
                                     <label for="fname">Name</label>
                                     <input type="text" name="name" id="full-name" placeholder="First and Last"
                                         required="">
-
+ <select name="department" id="department" required="">
+                                        <option value="" selected="" disabled="">Premium</option> </select>
                                     <label for="lname">Email Address</label>
                                     <input type="email" name="_replyto" id="email-address"
                                         placeholder="email@domain.tld" required="">
@@ -134,7 +135,7 @@
                                     <textarea name="message" id="message" placeholder="Your Address.." required=""
                                         style="height:70px"></textarea>
                                     <input type="hidden" name="_subject" id="email-subject"
-                                        value="Complaint Form Submission">
+                                        value="Department Contact Form Submission">
                                 </fieldset>
                                 <center> <input type="submit" value="Submit"></center>
                             </form>
